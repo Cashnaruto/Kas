@@ -1,0 +1,101 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+  local Window = Rayfield:CreateWindow({
+   Name = "Kas's hub",
+   LoadingTitle = "The best hub",
+   LoadingSubtitle = "by 1_F0",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Kas Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Kas's hub key",
+      Subtitle = "Key System",
+      Note = "Dm for key",
+      FileName = "Kashubup", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"https://pastebin.com/raw/QDxr0FbR"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local MainTab = Window:CreateTab("🏠 Home", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+Rayfield:Notify({
+   Title = "You executed kas's hub",
+   Content = "Very cool gui",
+   Duration = 5,
+   Image = 13047715178,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Basketball zero",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/roscripts749/loader/refs/heads/main/loader"))()
+   end
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Basketball legends",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IAmJamal10/Basketball/refs/heads/main/Legends"))()
+   end
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Vc back",
+   Callback = function()
+game:GetService("VoiceChatService"):joinVoice()
+   end
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Bubblegum sim",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/etqjuyreal/smoke/refs/heads/main/bgsi.lua"))()
+   end
+})
+
+local Button = MainTab:CreateButton({
+   Name = "system broken",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+   end
+})
+
+local Button = MainTab:CreateButton({
+   Name = "blade ball",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImNotRox1/Trevous-Hub/refs/heads/main/blade-ball.lua"))()
+   end
+})
+
+local Button = MainTab:CreateButton({
+   Name = "legends of speed",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EncryptedV10/Roblox-Scripts/refs/heads/main/Legends%20Of%20Speed.lua"))()
+   end
+})
+
+local Button = MainTab:CreateButton({
+   Name = "spelling bee",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PreppyHub/PreppyHub/refs/heads/main/PreppyHub"))()
+   end
+})
