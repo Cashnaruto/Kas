@@ -99,3 +99,90 @@ local Button = MainTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PreppyHub/PreppyHub/refs/heads/main/PreppyHub"))()
    end
 })
+
+local TsbTab = Window:CreateTab("Scripts", 1745072326070000) -- Title, Image
+
+local MainSection = TsbTab:CreateSection("The strongest")
+
+local Button = TsbTab:CreateButton({
+   Name = "HERO",
+   Callback = function()
+getgenv().stand = true
+getgenv().ken = true
+getgenv().Spawn = true
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Saitama%20to%20golden%20sigma'))()
+   end
+})
+
+local Button = TsbTab:CreateButton({
+   Name = "Madara",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/SCRIPTSBYVEUX/refs/heads/main/BoombasticLol.lua.txt"))()
+   end
+})
+
+local Button = TsbTab:CreateButton({
+   Name = "Minos prime",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/S1gmaGuy/MinosPrimeFixed/refs/heads/main/ThefixIsSoSigma"))()
+   end
+})
+
+local Button = TsbTab:CreateButton({
+   Name = "Naruto",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/NarutoBeatUpSasukeAss/refs/heads/main/NarutoCums"))()
+   end
+})
+
+local Button = TsbTab:CreateButton({
+   Name = "Gojo",
+   Callback = function()
+getgenv().FatalCombatSkillLayout = true -- [ DOESNT WORK ON ALL DEVICES. ]
+getgenv().MovesetReachSound = true -- [ PLAYS AN SOUND WHEN YOU FILL AN SECTION OF THE ULT BAR. ]
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/SonicexePort/d83f3eca5e8092468df1551df09db39a/raw/861f16fbae8fab8803cabfbc01295bb5b687f86a/Death%20Port%20Six%20Eyes%20Public%20Beta"))()
+   end
+})
+
+local Button = TsbTab:CreateButton({
+   Name = "1X1X1X1X MOVESET/Deadly Ninja",
+   Callback = function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/GoldenHeads2/900e87ffc32f3c740930ccb106dd6abf/raw/358c5bf0f0a6aa25946718288dab006e3ae7e1d4/gistfile1.txt"))()
+   end
+})
+
+local Button = TsbTab:CreateButton({
+   Name = "Void Garou",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/Void%20Reaper%20Obfuscated.txt"))()
+   end
+})
+
+local Button = TsbTab:CreateButton({
+   Name = "Deku",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/xKextYP5"))()
+   end
+})
+
+local Button = TsbTab:CreateButton({
+   Name = "Jin woo",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hamletirl/sunjingwoo/refs/heads/main/sunjingwoo"))()
+   end
+})
+
+local Button = TsbTab:CreateButton({
+   Name = "Akaza",
+   Callback = function()
+loadstring(game:HttpGet("https://paste.ee/r/zzvAH"))()
+   end
+})
+
+local Button = TsbTab:CreateButton({
+   Name = "Gabriel",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/youinsinificants/main/insignificantFuck.txt",true))()
+   end
+})
